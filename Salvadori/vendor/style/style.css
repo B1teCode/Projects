@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+nav{
+    width: 100vw;
+    /* border: 1px solid black; */
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+}
+nav .logo{
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    font-family: 'Poppins', sans-serif;
+}
+nav .links{
+    width: 50%;
+}
+nav .links ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+nav .links ul li{
+    padding: 0px 15px;
+    background: linear-gradient(transparent 98%, rgba(0, 0, 0) 2%);
+    background-size: 0%;
+    background-repeat: no-repeat;
+    transition: 0.8s ease;
+    padding: 10px;
+}
+nav .links ul li:hover{
+    background-size: 100%;
+}
+a{
+   color: black;
+   text-decoration: none;
+}
+nav .profile {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: space-around;
+    gap: 20px;
+}
+nav .profile .logout-login{
+    padding: 10px 20px;
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+}
+nav .profile .logout-login:focus{
+    background-color: rgb(56, 56, 56);
+}
+nav .profile a i{
+    font-size: 42px;
+}
+
