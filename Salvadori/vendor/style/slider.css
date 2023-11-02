@@ -110,17 +110,6 @@
   counter-increment: slide;
 }
 
-/* .slider__item::after {
-  content: counter(slide);
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  color: #fff;
-  font-style: italic;
-  font-size: 32px;
-  font-weight: bold;
-} */
-
 .img-fluid {
   display: inline-block;
   height: 570px;
