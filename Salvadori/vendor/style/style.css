@@ -346,6 +346,9 @@ main .testimonials .testimonial-cart .price-and-status {
   font-weight: 600;
   margin-bottom: 1rem;
 }
+/* main .testimonials .testimonial-cart .price-and-status .tag{
+  font-size: 0.8em;
+} */
 main .testimonials .testimonial-cart .price-and-status span:last-child {
   text-transform: uppercase;
 }
@@ -397,17 +400,6 @@ main .testimonials .testimonial-cart .testimonial-button-go-over button {
     justify-content: space-around;
   }
 }
-/* @media screen and (max-width: 1000px) and {
-    main{
-        width: 90%;
-    }
-  main .testimonials .testimonial-cart {
-    width: 100px;
-  }
-  main .testimonials .testimonial-carts {
-    justify-content: space-around;
-  }
-} */
 section {
   width: 1200px;
   height: 550px;

@@ -7,7 +7,7 @@
 .slider__wrapper {
   position: relative;
   overflow: hidden;
-  background-color: #eee;
+  background-color: #ffffff;
 }
 .slider__items {
   display: flex;
@@ -123,6 +123,7 @@
 
 .img-fluid {
   display: inline-block;
-  height: 580px;
+  height: 570px;
   width: 100%;
+  border-radius: 16px;
 }
