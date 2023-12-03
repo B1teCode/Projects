@@ -316,7 +316,7 @@ html *::-webkit-scrollbar-thumb {
   .logo {
     position: absolute;
     top: 15px;
-    right: 40%;
+    right: 35%;
     font-size: 2rem;
   }
   .navbar .profile {
